@@ -1,0 +1,31 @@
+1ª Execução:
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ a
+
+
+2ª Execução:
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxy
+
+3ª Execução:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuv
+
+4ª Execução:
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefgh
+
+
+5ª Execução:
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwx
+
+6ª Execução:
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrs

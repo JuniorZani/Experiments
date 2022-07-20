@@ -1,0 +1,10 @@
+./file -w aaabcdefghij -s 0 -w '##' DONE
+ 
+./file -o novo.txt -w aaabcdefghij -s 0 -w '##' -c DONE
+
+./file -o novo1.txt -w aaabcdefghij -s 100 -w '##' -c DONE
+
+./file -o novo2.txt -s 100000 -w '##' -s 100001 -w @@@@@ -c
+
+./file -o novo2.txt -s 50000 -r 2 -s 100003 -W -c
+

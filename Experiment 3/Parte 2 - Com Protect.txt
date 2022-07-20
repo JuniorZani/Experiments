@@ -1,0 +1,56 @@
+1ª Execução:
+
+AB CDEF GHIJ KLMN OPQR STUV W X Y Z  a bc d efgh ijkl m n op q rstu v wx y z 1 2 34 567 890 
+Fim do buffer(Produtor):#########################################################34567890
+ AB CDEF G HIJ KLMN O PQR S TUVW XY Z  a bcd ef gh ij klmn opq r st uvw x yz  123 4 567 8 9 0
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 12#####890
+  AB CDE FG HIJ KL MNOP QRST UVWX YZ  abcd efg hij kl mn o pqr stu v w xy z 1 2345 6 7 890  
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 12345678###
+ AB C D EFG H I JKL M N O PQRS TUVW XY Z a bcd e fg h ij kl
+
+
+
+2ª Execução:
+
+A BCD EFG HIJ KLM NOP QRST UVWX Y Z  ab cdef gh ijkl mn opqr stu vwxy z 1 23 4567 890 
+Fim do buffer(Produtor):##################################################wxyz 1234567890
+ AB C DE FGHI J KL MNOP QR STU VWXY Z  a bcd efgh i jk lmno p qr stu vwx yz 1 234 5678 90 
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuv#########567890
+  A B CD EFG H IJ KLMN OP QR STU VWX YZ a b cd efg hijk l mn opqr st uvw xyz  12 34 5678 9 0 
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 12345#####
+ ABC D EFG HIJK L MN OPQ RS TUV W X YZ  abc d ef ghi jklm no pqr stuv w xyz  123 4 56 789 0
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+  AB CDE F GH IJK LMNO P QRS TUV WXYZ   ab
+3ª Execução:
+
+ABC D E F G H I J K LM NO PQR STUV W XY Z  abc defg hi jkl mnop qr st uvw xyz  123 4567 890 
+Fim do buffer(Produtor):###############################################################90
+ A BC DEF GHIJ KL MNO PQ RS TU VWX YZ a bc def gh i jklm nopq rstu v wxy z 12 3456 7 8 90 
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 123456789#
+ A BCD EFGH IJ KL MN OP QR ST UVW X YZ  abcd ef gh ij klm no pq rs tuvw xyz  1234 5678 9 0  
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890
+
+4ª Execução:
+
+AB CDEF GHIJ KL M NO PQ R STU VWX YZ a b cd efg hijk l mn opqr st uvw xyz  12 3 4 5 67 890  
+Fim do buffer(Produtor):##############################################################890
+ ABC D EF GH IJK LMNO PQ RS TUV WXYZ   ab cde fgh ijkl m nopq r stu vwxy z  12 345 6789 0  
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567####
+
+Fim do buffer(Consumidor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567#### A BCD EFGH IJKL MN OP Q RSTU VWXY Z  abc de fghi jklm
+5ª Execução:
+
+AB CDEF GHIJ KLMN OPQR STUV W X Y Z   abc defg hi jkl m nop qr stu vwxy z  12 345 6 789 0
+Fim do buffer(Produtor):#######################################################1234567890
+ A BC DE FGH I JKLM NO PQ RST UVW XYZ  abcd e fgh ijkl mnop qrs t u vwxy z   1234 5 67 890  
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1########0
+ AB CDEF G HI JKL M NOPQ RST UVW XYZ  ab cdef g hAB CDEF GHIJ KLMN OPQR STUV W X Y Z   abc defg hi jkl m nop qr stu vwxy z  12 345 6 789 0
+Fim do buffer(Produtor):#######################################################1234567890
+ A BC DE FGH I JKLM NO PQ RST UVW XYZ  abcd e fgh ijkl mnop qrs t u vwxy z   1234 5 67 890  
+Fim do buffer(Produtor): ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1########0
+ AB CDEF G HI JKL M NOPQ RST UVW XYZ  ab cdef g h
+6ª Execução:
+
+ABC DEFG HIJK LMNO PQRS TU V WX Y Z  ab cd efg hij klmn opq rstu vwxy z  1 2 34 56 78 90  
+Fim do buffer(Produtor):############################################################67890
+  AB C DEF GHI JK LMN OPQR S T UV W XYZ  abc de fghi jk lmn opqr s tu vwxy z   12 345 6789 0  
